@@ -1,0 +1,28 @@
+<svg width="750" height="1624" viewBox="0 0 750 1624" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TransMenu currency ordering mock">
+  <defs>
+    <linearGradient id="bg4" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff9c66"/>
+      <stop offset="100%" stop-color="#ffe9d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="750" height="1624" fill="url(#bg4)" rx="64"/>
+  <rect x="60" y="70" width="630" height="1484" rx="56" fill="#11121b" stroke="#f6f6f6" stroke-width="12"/>
+  <text x="150" y="160" fill="#f6f6f6" font-size="36" font-family="'Noto Sans TC','Inter',sans-serif" font-weight="700">Translate & order with auto currency</text>
+  <rect x="110" y="240" width="530" height="760" rx="42" fill="#1e1f2a" stroke="#2d2f3e" stroke-width="8"/>
+  <text x="150" y="310" fill="#ffb347" font-size="24" font-family="'Noto Sans TC','Inter',sans-serif">Order</text>
+  <g fill="#171821" stroke="#3c3f53" stroke-width="6">
+    <rect x="150" y="360" width="450" height="80" rx="24"/>
+    <rect x="150" y="460" width="450" height="80" rx="24"/>
+    <rect x="150" y="560" width="450" height="80" rx="24"/>
+    <rect x="150" y="660" width="450" height="80" rx="24"/>
+  </g>
+  <g fill="#ededed" font-family="'Noto Sans TC','Inter',sans-serif" font-size="22" font-weight="600">
+    <text x="170" y="410">Add items easily</text>
+    <text x="170" y="510">Switch currencies fast</text>
+    <text x="170" y="610">Keep history synced</text>
+    <text x="170" y="710">Share printable order</text>
+  </g>
+  <rect x="150" y="780" width="450" height="180" rx="28" fill="#0c0c12" stroke="#ffb347" stroke-width="6"/>
+  <text x="180" y="830" fill="#ffb347" font-size="24" font-family="'Noto Sans TC','Inter',sans-serif">Total · USD 910</text>
+  <text x="180" y="870" fill="#ededed" font-size="20" font-family="'Noto Sans TC','Inter',sans-serif">Auto currency · Tax included</text>
+</svg>

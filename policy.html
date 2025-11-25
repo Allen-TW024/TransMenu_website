@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TransMenu 政策與條款</title>
+    <meta
+      name="description"
+      content="了解 TransMenu 的隱私政策、資料使用與服務條款，確保你的旅遊翻譯體驗安全無虞。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <style>
+      main {
+        max-width: 880px;
+        margin: 0 auto 4rem;
+      }
+
+      .policy-card {
+        margin: 2rem 0;
+        padding: 2rem;
+        border-radius: 24px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(5, 6, 17, 0.6);
+      }
+
+      .policy-card h2 {
+        margin-bottom: 1rem;
+      }
+
+      ol,
+      ul {
+        padding-left: 1.2rem;
+        color: var(--muted);
+      }
+
+      .back-link {
+        display: inline-flex;
+        gap: 0.5rem;
+        align-items: center;
+        color: var(--accent);
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">TransMenu</div>
+      <nav>
+        <a href="index.html">回到首頁</a>
+        <a href="contact.html">聯絡我們</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <p class="eyebrow">Policies & Terms</p>
+        <h1>透明、安心的旅遊翻譯體驗</h1>
+        <p>
+          歡迎閱讀 TransMenu 的官方政策。我們遵守 GDPR、CCPA 與台灣個資法，並且以旅人的信任為最高原則。
+        </p>
+      </section>
+
+      <section id="privacy" class="policy-card">
+        <h2>隱私權政策</h2>
+        <p>
+          TransMenu 盡可能在裝置內完成所有翻譯流程。只有在你選擇備份到 iCloud 或同步至其他裝置時，資料才會離開你的手機。
+        </p>
+        <ul>
+          <li>攝影影像僅用於即時辨識，並在 60 秒內自動刪除。</li>
+          <li>收藏的菜單與備註會透過 Apple 加密儲存在你的私人 iCloud 容量中。</li>
+          <li>分析資料採匿名化處理，用來改善 OCR 準確率與 UI 使用情境。</li>
+        </ul>
+      </section>
+
+      <section id="data" class="policy-card">
+        <h2>資料使用聲明</h2>
+        <p>
+          我們會使用 Firebase Crashlytics 與 RevenueCat 追蹤錯誤與訂閱狀態。你可以在 App 設定中關閉診斷資料分享。
+        </p>
+        <ol>
+          <li>登入僅使用 Apple ID，不會額外蒐集密碼。</li>
+          <li>若你寄送菜單給我們做模型訓練，我們會在取得授權後才納入資料庫。</li>
+          <li>對未成年使用者，我們會要求監護人同意並提供教學模式，避免開啟購買。</li>
+        </ol>
+      </section>
+
+      <section id="terms" class="policy-card">
+        <h2>服務條款</h2>
+        <p>
+          使用 TransMenu 代表你同意以下條款，若不同意，請停止使用並移除 App。
+        </p>
+        <ul>
+          <li>訂閱採自動續約，可隨時透過 Apple 帳戶取消，費用將依比例退還。</li>
+          <li>我們不對餐廳料理的實際成分負責，過敏資訊僅為參考，請主動向餐廳確認。</li>
+          <li>若發現惡意濫用（例如批量抓取翻譯結果），我們保留封鎖帳號的權利。</li>
+        </ul>
+      </section>
+
+      <a class="back-link" href="index.html">← 回到精彩首頁</a>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> TransMenu Studio. Policy & Safety · <a href="mailto:support@transmenu.com">support@transmenu.com</a></p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
